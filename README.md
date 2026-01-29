@@ -1,6 +1,6 @@
 # Minimalist Jekyll Theme
 
-A clean, modern, and distraction-free Jekyll theme designed for personal blogs on GitHub Pages.
+This blog is about building, thinking, and shipping. A clean, modern, and distraction-free Jekyll theme designed for existing on GitHub Pages.
 
 ## Features
 
