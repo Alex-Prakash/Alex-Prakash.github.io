@@ -10,8 +10,8 @@ layout: default
 
     <ul class="post-list">
         {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <li class="post-item">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ site.author }}</span>
             <h3>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h3>
@@ -20,6 +20,7 @@ layout: default
                 {{ post.excerpt | strip_html | truncatewords: 30 }}
             </div>
             {% endif %}
+            <a href="{{ post.url | relative_url }}" class="btn">Read More</a>
         </li>
         {% endfor %}
     </ul>

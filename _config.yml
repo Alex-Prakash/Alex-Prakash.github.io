@@ -1,11 +1,12 @@
-title: My Minimal Blog
+title: Alex Prakash
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A minimalist, distraction-free blog theme for Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+  Personal blog about building, thinking, and shipping.
+author: Alex Prakash
+baseurl: ""
+url: ""
 twitter_username: jekyllrb
-github_username: jekyll
+github_username: Alex-Prakash
 
 # Build settings
 markdown: kramdown
