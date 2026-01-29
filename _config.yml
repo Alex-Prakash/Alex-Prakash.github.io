@@ -10,7 +10,7 @@ github_username: Alex-Prakash
 
 # Build settings
 markdown: kramdown
-theme: minima # We will override this by providing our own layouts, but this is a safe default for GHP
+# theme: minima # We will override this by providing our own layouts, but this is a safe default for GHP
 plugins:
   - jekyll-feed
 
